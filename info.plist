@@ -19,8 +19,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>284F6AAD-8FE7-44A6-AAE4-62A0F8BEE779</key>
-		<array/>
 		<key>487D7A3C-11A7-416D-8F0F-21097B979E4C</key>
 		<array>
 			<dict>
@@ -171,8 +169,7 @@
 require('YoudaoTranslate.php');
 
 $keys = [
-	['appKey' =&gt; '043006a9363d8f0c', 'secret' =&gt; 'xKbfHSuE65fJE71jDmAzLtY1WwWbGysd'],
-	['appKey' =&gt; '2280cdb033304a40', 'secret' =&gt; '9WmJZbNe9JaYJl8dzzaZbmcYdsf6VJ7c']
+	['appKey' =&gt; '079eb4664f437099', 'secret' =&gt; '6Zd53TBwEiYfetYWfki8oaoEHKrC1cgI']
 ];
 
 $translator = new YoudaoTranslate($keys);
@@ -293,32 +290,6 @@ echo -n $query | say $1 -v Samantha</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>cd $TMPDIR
-curl -o {query} "https://dict.youdao.com/dictvoice?audio={query}&amp;type=1"
-afplay {query}
-rm {query}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>284F6AAD-8FE7-44A6-AAE4-62A0F8BEE779</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -330,17 +301,6 @@ rm {query}</string>
 			<integer>640</integer>
 			<key>ypos</key>
 			<integer>270</integer>
-		</dict>
-		<key>284F6AAD-8FE7-44A6-AAE4-62A0F8BEE779</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>7</integer>
-			<key>note</key>
-			<string>在线发音</string>
-			<key>xpos</key>
-			<integer>740</integer>
-			<key>ypos</key>
-			<integer>350</integer>
 		</dict>
 		<key>487D7A3C-11A7-416D-8F0F-21097B979E4C</key>
 		<dict>
@@ -363,7 +323,7 @@ rm {query}</string>
 		<key>8FE8475E-6310-49A4-967E-D6CCE73A86AC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>330</integer>
+			<integer>320</integer>
 			<key>ypos</key>
 			<integer>170</integer>
 		</dict>
