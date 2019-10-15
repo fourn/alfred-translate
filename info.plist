@@ -135,7 +135,7 @@ echo $translator-&gt;main($argv[1]);
 				<key>hotkey</key>
 				<integer>-1</integer>
 				<key>hotmod</key>
-				<integer>262144</integer>
+				<integer>524288</integer>
 				<key>hotstring</key>
 				<string>double tap</string>
 				<key>leftcursor</key>
